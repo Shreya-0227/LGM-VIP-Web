@@ -1,0 +1,7 @@
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff4a8c, #2246c8);
+  }

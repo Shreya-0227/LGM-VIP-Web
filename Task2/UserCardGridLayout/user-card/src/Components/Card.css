@@ -1,0 +1,35 @@
+.users{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    padding: 150px 120px;
+    background: linear-gradient(135deg, #ff4a8c, #2246c8);
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    height: 200x;
+    margin: 20px 40px;
+    box-shadow: 0 5px 10px rgba(5, 6, 7, 0.705);
+    background: #b02c75e0;
+    display: flex;
+    justify-content: baseline;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(15, 15, 9, 0.753);
+    transform: scale(1);
+    background: rgba(87, 166, 184, 0.73);
+    cursor: pointer;
+}
+.details p {
+    font-size: 15px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+    text-align: center;
+}
+.details h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+}
